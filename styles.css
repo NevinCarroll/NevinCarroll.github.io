@@ -9,7 +9,7 @@
 
 .bar {
     width: 500px;
-    height: 20px;
+    height: 5px;
     margin: 10px auto;
     background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
 }
