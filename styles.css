@@ -1,20 +1,69 @@
 .titlePage{
-    margin-left: auto; 
     margin-right: auto;
+    text-align: center;
+    font-size: 2.5rem;
 }
 
-.middleTxt {
+.middleText {
     text-align: center;
 }
 
 .selectionBar {
-    border: 5px black;
-    padding: 10px;
-    margin: auto;    
+    border: 0.2rem #000000;
+    border-style: solid;
+    padding: .75rem;
+    margin: auto;  
+    text-align: center;  
+    max-width: 40rem;
 }
 
 .listOfItems {
     display: inline;
-    margin: auto;
-    font-size: 22px;
+    font-size: 1.5rem;
+    padding: .75rem;
 }
+
+.imageHolder1 {
+    border: 0.2rem #000000;
+    border-style: solid;
+    padding: 2rem 2rem;
+    margin: auto;
+    text-align: center;
+    height: 6rem;
+    max-width: 20rem;
+}
+
+.imageHolder2 {
+    border: 0.2rem #000000;
+    border-style: solid;
+    padding: 2rem 2rem;
+    margin: auto;
+    text-align: center;
+    height: 6rem;
+    max-width: 5rem;
+}
+
+.descriptions {
+    padding: auto;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.descriptionHeader {
+    font-size: 1.5rem;
+    margin: 1rem; 
+    display: inline;
+}
+
+.descriptionText1 {
+    font-size: 1.3rem;
+    padding: 2rem;
+    display: inline;
+}
+
+.descriptionText2 {
+    font-size: 1.3rem;
+    padding: 2.4rem;
+    display: inline;
+}
+
