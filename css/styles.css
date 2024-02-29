@@ -46,21 +46,21 @@
 .descriptionText {
     padding: 1rem;
     margin: 1.8rem;
-    display: inline;
 }
 
 .desciptionHeader{
     font-size: 1.4rem;
     margin: 1rem;
-    display: inline;
 }
 
 .descriptionList {
     margin: auto;
-    font-size: 1.5rem;
     display: flex;
     justify-content: center;
 }
+
+
+
 
 
 /* Testing Stuff */
