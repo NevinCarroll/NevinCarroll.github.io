@@ -1,5 +1,6 @@
 .middleText {
     text-align: center;
+    font-family: "Inria Serif", serif;
 }
 
 .selectionBar {
@@ -8,13 +9,13 @@
     padding: .75rem;
     margin: auto;  
     text-align: center;  
-    max-width: 40rem;
+    max-width: 25rem;
 }
 
 .listOfItems {
     display: inline;
-    font-size: 1.5rem;
-    padding: .75rem;
+    font-size: 1.02rem;
+    margin: .75rem;
 }
 
 .imageHolder1 {
@@ -27,16 +28,6 @@
     max-width: 20rem;
 }
 
-.imageHolder2 {
-    border: 0.2rem #000000;
-    border-style: solid;
-    padding: 2rem 2rem;
-    margin: 1rem 1rem 1rem 1rem;
-    text-align: center;
-    height: 6rem;
-    max-width: 5rem;
-}
-
 .descriptionContainer {
     padding: auto;
     margin: 2rem 1rem;
@@ -44,23 +35,25 @@
 }
 
 .descriptionText {
-    padding: 1rem;
     margin: 1.8rem;
+    text-align: center;
 }
 
 .desciptionHeader{
     font-size: 1.4rem;
     margin: 1rem;
+    text-align: center;
 }
 
-.descriptionList {
+.valuesList {
     margin: auto;
-    display: flex;
-    justify-content: center;
+    max-width: 10rem;
 }
 
-
-
+.wrapper {
+    margin: auto;
+    max-width: 35rem;
+}
 
 
 /* Testing Stuff */
