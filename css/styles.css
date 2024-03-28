@@ -63,6 +63,7 @@
 
 .wrapper {
     margin: auto;
+    background-color: #ffffff;
 }
 
 .line {
@@ -81,6 +82,12 @@
 .footerItem {
     padding: .5rem;
 }
+
+/* .background {
+    background-color: #000000;
+} */
+
+
 
 /* Testing Stuff */
 
