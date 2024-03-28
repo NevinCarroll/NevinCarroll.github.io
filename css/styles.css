@@ -9,6 +9,11 @@
     margin: 1rem 2rem
 }
 
+.line {
+    border-bottom: 0.1rem solid #000000;
+    margin: 1rem 0rem;
+}
+
 .selectionBar {
     border: 0.2rem #000000;
     border-style: solid none;
@@ -60,6 +65,22 @@
     margin: auto;
 }
 
+.line {
+    border-bottom: 0.1rem solid #000000;
+    margin: 1rem 0rem;
+}
+
+.footerContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+}
+
+.footerItem {
+    padding: .5rem;
+}
 
 /* Testing Stuff */
 

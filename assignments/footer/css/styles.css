@@ -1,0 +1,27 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Inria Serif";
+}
+
+.middleText {
+    text-align: center;
+    margin: 1rem 2rem
+}
+
+.line {
+    border-bottom: 0.1rem solid #000000;
+    margin: 1rem 0rem;
+}
+
+.footerContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+}
+
+.footerItem {
+    padding: .5rem;
+}
