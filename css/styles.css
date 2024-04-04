@@ -2,7 +2,10 @@
     margin: 0rem;
     padding: 0rem;
     font-family: "Inria Serif";
+    text-decoration: none;
 }
+
+/* .8 rem minmuim for text */
 
 .middleText {
     text-align: center;
@@ -19,14 +22,14 @@
     border-style: solid none;
     padding: .75rem;
     margin: 1rem auto;  
-    text-align: center;  
-    /* max-width: 25rem; */
+    text-align: center;
+    /* max-width: 75rem; */
 }
 
 .listOfItems {
     display: inline;
-    font-size: 1rem;
-    margin: .75rem;
+    font-size: 1.25rem;
+    margin: 1.25rem;
 }
 
 .imageHolder1 {
@@ -63,6 +66,7 @@
 
 .wrapper {
     margin: auto;
+    max-width: 75rem;
     background-color: #ffffff;
 }
 
@@ -84,12 +88,28 @@
 }
 
 /* .background {
-    background-color: #000000;
+    background-color: #565555;
 } */
 
+@media (min-width: 768px) {
+  .selectionBar {
+      border: 0.2rem #000000;
+      border-style: solid;
+      padding: .75rem;
+      margin: 1rem auto;  
+      text-align: center;
+      max-width: 50rem;
+  }
 
+  .line {
+      border-bottom: 0.1rem solid #000000;
+      margin: 1rem auto;
+      max-width: 75rem;
+  }
 
-/* Testing Stuff */
+}
+
+  /* Testing Stuff */
 
 .flex-container {
     /* We first create a flex layout context */
