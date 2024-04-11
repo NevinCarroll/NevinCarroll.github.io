@@ -3,6 +3,7 @@
     padding: 0rem;
     font-family: "Inria Serif";
     text-decoration: none;
+    color: #ffffff;
 }
 
 /* .8 rem minmuim for text */
@@ -31,6 +32,10 @@
     display: inline;
     font-size: .9rem;
     margin: .4rem;
+}
+
+.listOfItems:hover {
+    background-color: #9f0000;
 }
 
 .imageHolder1 {
@@ -67,11 +72,11 @@
 .wrapper {
     margin: auto;
     max-width: 75rem;
-    background-color: #ffffff;
+    background-color: #363636;
 }
 
 .line {
-    border-bottom: 0.1rem solid #000000;
+    border-bottom: 0.1rem solid #9f0000;
     margin: 1rem 0rem;
 }
 
@@ -87,9 +92,9 @@
     padding: .5rem;
 }
 
-/* .background {
-    background-color: #565555;
-} */
+.background {
+    background-color: #2d2d2d;
+}
 
 @media (min-width: 768px) {
   .selectionBar {
@@ -101,7 +106,7 @@
   }
 
   .line {
-      border-bottom: 0.1rem solid #000000;
+      border-bottom: 0.1rem solid #9f0000;
       margin: 1rem auto;
       max-width: 75rem;
   }
