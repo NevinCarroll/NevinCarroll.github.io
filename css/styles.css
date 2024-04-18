@@ -12,7 +12,7 @@
 
 .middleText {
     text-align: center;
-    margin: 1rem 2rem
+    margin: 2rem 2rem 
 }
 
 .line {
@@ -31,11 +31,17 @@
 .listOfItems {
     display: inline;
     font-size: .9rem;
-    margin: .4rem;
+    border: 0.1rem #000000;
+    border-style: none solid;
+}
+
+.listofItemsLink {
+    margin: .5rem .2rem;
+    display: inline-block
 }
 
 .listOfItems:hover {
-    background-color: #9f0000;
+    background: linear-gradient(to bottom right, #f63636, #9f0000);
 }
 
 .imageHolder1 {
@@ -72,7 +78,7 @@
 .wrapper {
     margin: auto;
     max-width: 75rem;
-    background-color: #363636;
+    background: linear-gradient(#626262, #363636);
 }
 
 .line {
@@ -93,7 +99,21 @@
 }
 
 .background {
-    background-color: #2d2d2d;
+    background: linear-gradient(#424242, #242424);
+}
+
+.containerLink {
+    border: 0.2rem #000000;
+    border-style: solid;
+    text-align: center;
+    padding: 4rem 0rem;
+    margin: 2rem auto;
+    max-width: 15rem;
+}
+
+#logo {
+    margin: auto;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -110,6 +130,23 @@
       margin: 1rem auto;
       max-width: 75rem;
   }
+
+  .wrapper {
+    margin: auto;
+    max-width: 75rem;
+    background: linear-gradient(#626262, #363636);
+    border: 0.2rem #000000;
+    border-style: none solid none solid;
+  }
+
+  .containerLink {
+    border: 0.2rem #000000;
+    border-style: solid;
+    text-align: center;
+    padding: 4rem 0rem;
+    margin: 2rem auto;
+    max-width: 35rem;
+}
 
 }
 
