@@ -111,6 +111,26 @@
     max-width: 15rem;
 }
 
+.containerLinkRestrict {
+    margin: 2rem auto;
+    max-width: 15rem;
+    display: block;
+}
+
+.newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.newsItem {
+    border: 0.2rem solid #000000;
+    max-width: 5rem;
+    padding: 3rem 3rem .5rem 3rem;
+    text-align: center;
+}
+
 #logo {
     margin: auto;
     text-align: center;
@@ -146,6 +166,12 @@
     padding: 4rem 0rem;
     margin: 2rem auto;
     max-width: 35rem;
+}
+
+.containerLinkRestrict {
+    margin: 2rem auto;
+    max-width: 35rem;
+    display: block;
 }
 
 }
