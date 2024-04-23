@@ -108,12 +108,11 @@
     text-align: center;
     padding: 4rem 0rem;
     margin: 2rem auto;
-    max-width: 15rem;
 }
 
 .containerLinkRestrict {
     margin: 2rem auto;
-    max-width: 15rem;
+    max-width: 25rem;
     display: block;
 }
 
@@ -126,7 +125,8 @@
 
 .newsItem {
     border: 0.2rem solid #000000;
-    max-width: 5rem;
+    min-width: 10rem;
+    max-width: 10rem;
     padding: 3rem 3rem .5rem 3rem;
     text-align: center;
 }
@@ -136,7 +136,7 @@
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .selectionBar {
       border: 0.2rem #000000;
       border-style: solid;
@@ -165,7 +165,6 @@
     text-align: center;
     padding: 4rem 0rem;
     margin: 2rem auto;
-    max-width: 35rem;
 }
 
 .containerLinkRestrict {
@@ -176,7 +175,7 @@
 
 }
 
-  /* Testing Stuff */
+  /* Testing Stuff Ignore Below*/
 
 .flex-container {
     /* We first create a flex layout context */
