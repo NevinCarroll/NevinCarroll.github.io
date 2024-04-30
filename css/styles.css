@@ -67,7 +67,7 @@
 
 .valuesList {
     margin: auto;
-    max-width: 10rem;
+    max-width: 12rem;
 }
 
 .wrapper {
@@ -189,7 +189,7 @@
 
 }
 
-  /* Testing Stuff Ignore Below*/
+  /* Testing Stuff Ignore Below For Final*/
 
 .flex-container {
     /* We first create a flex layout context */
