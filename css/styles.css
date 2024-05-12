@@ -45,13 +45,8 @@
 }
 
 .imageHolder1 {
-    border: 0.2rem #000000;
-    border-style: solid;
-    padding: 2rem 2rem;
-    margin: auto;
+    /* padding: 2rem 2.5rem; */
     text-align: center;
-    height: 6rem;
-    max-width: 20rem;
 }
 
 .descriptionContainer {
@@ -72,7 +67,7 @@
 
 .valuesList {
     margin: auto;
-    max-width: 10rem;
+    max-width: 12rem;
 }
 
 .wrapper {
@@ -99,7 +94,7 @@
 }
 
 .background {
-    background: linear-gradient(#424242, #242424);
+    background: linear-gradient(to bottom, #424242, #242424);
 }
 
 .containerLink {
@@ -108,15 +103,43 @@
     text-align: center;
     padding: 4rem 0rem;
     margin: 2rem auto;
-    max-width: 15rem;
 }
+
+.containerLinkRestrict {
+    margin: 2rem auto;
+    max-width: 25rem;
+    display: block;
+}
+
+.newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.newsItem {
+    border: 0.2rem solid #000000;
+    min-width: 10rem;
+    max-width: 10rem;
+    padding: 1rem 3rem 8rem 3rem;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.contactInfromationItem {
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
 
 #logo {
     margin: auto;
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .selectionBar {
       border: 0.2rem #000000;
       border-style: solid;
@@ -124,6 +147,11 @@
       text-align: center;
       max-width: 50rem;
   }
+
+  .imageHolder1 {
+      /* padding: 2rem 17.5rem; */
+      text-align: center;
+  } 
 
   .line {
       border-bottom: 0.1rem solid #9f0000;
@@ -145,12 +173,23 @@
     text-align: center;
     padding: 4rem 0rem;
     margin: 2rem auto;
+}
+
+.containerLinkRestrict {
+    margin: 2rem auto;
     max-width: 35rem;
+    display: block;
+}
+
+.contactInfromationItem {
+    margin: auto;
+    padding: 1rem 11rem;
+    font-size: 1.25rem;
 }
 
 }
 
-  /* Testing Stuff */
+  /* Testing Stuff Ignore Below For Final*/
 
 .flex-container {
     /* We first create a flex layout context */
